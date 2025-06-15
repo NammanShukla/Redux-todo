@@ -1,4 +1,4 @@
-import './styles.css';
+import './App.css';
 import Header from './components/Header';
 import Filters from './components/Filters';
 import StatusBar from './components/StatusBar';
