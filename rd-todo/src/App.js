@@ -6,11 +6,13 @@ import TaskManager from './components/TaskManager';
 
 export default function App() {
   return (
-    <div className="app-container">
+    <>
       <Header />
-      <Filters />
-      <StatusBar />
-      <TaskManager />
-    </div>
+      <div className="app-container">
+        <Filters />
+        <StatusBar />
+        <TaskManager />
+      </div>
+    </>
   );
 }
