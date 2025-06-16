@@ -8,12 +8,13 @@ export default function Filters() {
   return (
     <div className="filter-bar">
       <input
-        className="input-bar"
+        className="input-bar-2"
         placeholder="Search Tasks Here"
         value={filterText}
         onChange={e => dispatch(setFilterText(e.target.value))}
       />
       <select
+        className="dropdown-btn"
         value={filterStatus}
         onChange={e => dispatch(setFilterStatus(e.target.value))}
       >
