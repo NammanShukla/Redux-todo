@@ -8,10 +8,12 @@ export default function App() {
   return (
     <>
       <Header />
-      <div className="app-container">
-        <Filters />
-        <StatusBar />
-        <TaskManager />
+      <div className="centered-container">
+        <div className="app-container">
+          <Filters />
+          <StatusBar />
+          <TaskManager />
+        </div>
       </div>
     </>
   );
